@@ -1,0 +1,3 @@
+test:
+  override:
+  - find -L all -type f | xargs -n1 ssh-keygen -l -f
